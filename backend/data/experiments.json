@@ -1,0 +1,293 @@
+[
+  {
+    "id": "exp_1794740241572",
+    "name": "Master Q-Learning 50K",
+    "timestamp": "2026-11-15 16:27:21",
+    "episodes_trained": 50000,
+    "total_episodes": 50000,
+    "train_time_sec": 5.3,
+    "q_states": 4520,
+    "final_epsilon": 0.05,
+    "alpha": 0.5,
+    "gamma": 0.9,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "self_play_draws_pct": 84.95,
+    "self_play_x_wins_pct": 10.2,
+    "self_play_o_wins_pct": 4.85,
+    "non_loss_vs_minimax_pct": 100.0,
+    "win_vs_random_pct": 90.0,
+    "benchmark_minimax": {
+      "games": 30,
+      "wins": 0,
+      "losses": 0,
+      "draws": 30,
+      "win_rate": 0.0,
+      "loss_rate": 0.0,
+      "draw_rate": 100.0,
+      "non_loss_rate": 100.0
+    },
+    "benchmark_random": {
+      "games": 50,
+      "wins": 45,
+      "losses": 0,
+      "draws": 5,
+      "win_rate": 90.0,
+      "loss_rate": 0.0,
+      "draw_rate": 10.0,
+      "non_loss_rate": 100.0
+    },
+    "batch_records": [
+      {
+        "episode": 2000,
+        "draw_rate": 13.25,
+        "x_win_rate": 58.45,
+        "o_win_rate": 28.3,
+        "non_loss_vs_minimax": 0.0,
+        "win_vs_random": 40.0,
+        "epsilon": 0.9525,
+        "q_states": 3690
+      },
+      {
+        "episode": 4000,
+        "draw_rate": 11.4,
+        "x_win_rate": 59.2,
+        "o_win_rate": 29.4,
+        "non_loss_vs_minimax": 16.67,
+        "win_vs_random": 80.0,
+        "epsilon": 0.905,
+        "q_states": 4309
+      },
+      {
+        "episode": 6000,
+        "draw_rate": 12.0,
+        "x_win_rate": 58.85,
+        "o_win_rate": 29.15,
+        "non_loss_vs_minimax": 16.67,
+        "win_vs_random": 70.0,
+        "epsilon": 0.8575,
+        "q_states": 4466
+      },
+      {
+        "episode": 8000,
+        "draw_rate": 12.5,
+        "x_win_rate": 58.45,
+        "o_win_rate": 29.05,
+        "non_loss_vs_minimax": 33.33,
+        "win_vs_random": 90.0,
+        "epsilon": 0.81,
+        "q_states": 4505
+      },
+      {
+        "episode": 10000,
+        "draw_rate": 12.6,
+        "x_win_rate": 58.0,
+        "o_win_rate": 29.4,
+        "non_loss_vs_minimax": 50.0,
+        "win_vs_random": 80.0,
+        "epsilon": 0.7625,
+        "q_states": 4516
+      },
+      {
+        "episode": 12000,
+        "draw_rate": 14.0,
+        "x_win_rate": 55.6,
+        "o_win_rate": 30.4,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 100.0,
+        "epsilon": 0.715,
+        "q_states": 4519
+      },
+      {
+        "episode": 14000,
+        "draw_rate": 16.0,
+        "x_win_rate": 55.6,
+        "o_win_rate": 28.4,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 80.0,
+        "epsilon": 0.6675,
+        "q_states": 4519
+      },
+      {
+        "episode": 16000,
+        "draw_rate": 17.3,
+        "x_win_rate": 54.2,
+        "o_win_rate": 28.5,
+        "non_loss_vs_minimax": 83.33,
+        "win_vs_random": 90.0,
+        "epsilon": 0.62,
+        "q_states": 4520
+      },
+      {
+        "episode": 18000,
+        "draw_rate": 18.8,
+        "x_win_rate": 54.55,
+        "o_win_rate": 26.65,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 80.0,
+        "epsilon": 0.5725,
+        "q_states": 4520
+      },
+      {
+        "episode": 20000,
+        "draw_rate": 20.7,
+        "x_win_rate": 50.6,
+        "o_win_rate": 28.7,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 90.0,
+        "epsilon": 0.525,
+        "q_states": 4520
+      },
+      {
+        "episode": 22000,
+        "draw_rate": 24.45,
+        "x_win_rate": 47.25,
+        "o_win_rate": 28.3,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 70.0,
+        "epsilon": 0.4775,
+        "q_states": 4520
+      },
+      {
+        "episode": 24000,
+        "draw_rate": 23.95,
+        "x_win_rate": 49.2,
+        "o_win_rate": 26.85,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 70.0,
+        "epsilon": 0.43,
+        "q_states": 4520
+      },
+      {
+        "episode": 26000,
+        "draw_rate": 29.4,
+        "x_win_rate": 44.95,
+        "o_win_rate": 25.65,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 80.0,
+        "epsilon": 0.3825,
+        "q_states": 4520
+      },
+      {
+        "episode": 28000,
+        "draw_rate": 33.4,
+        "x_win_rate": 43.5,
+        "o_win_rate": 23.1,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 100.0,
+        "epsilon": 0.335,
+        "q_states": 4520
+      },
+      {
+        "episode": 30000,
+        "draw_rate": 35.25,
+        "x_win_rate": 40.2,
+        "o_win_rate": 24.55,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 60.0,
+        "epsilon": 0.2875,
+        "q_states": 4520
+      },
+      {
+        "episode": 32000,
+        "draw_rate": 44.05,
+        "x_win_rate": 34.5,
+        "o_win_rate": 21.45,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 100.0,
+        "epsilon": 0.24,
+        "q_states": 4520
+      },
+      {
+        "episode": 34000,
+        "draw_rate": 51.2,
+        "x_win_rate": 32.65,
+        "o_win_rate": 16.15,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 80.0,
+        "epsilon": 0.1925,
+        "q_states": 4520
+      },
+      {
+        "episode": 36000,
+        "draw_rate": 58.05,
+        "x_win_rate": 26.65,
+        "o_win_rate": 15.3,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 90.0,
+        "epsilon": 0.145,
+        "q_states": 4520
+      },
+      {
+        "episode": 38000,
+        "draw_rate": 67.85,
+        "x_win_rate": 21.85,
+        "o_win_rate": 10.3,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 100.0,
+        "epsilon": 0.0975,
+        "q_states": 4520
+      },
+      {
+        "episode": 40000,
+        "draw_rate": 80.95,
+        "x_win_rate": 11.75,
+        "o_win_rate": 7.3,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 80.0,
+        "epsilon": 0.05,
+        "q_states": 4520
+      },
+      {
+        "episode": 42000,
+        "draw_rate": 85.05,
+        "x_win_rate": 10.2,
+        "o_win_rate": 4.75,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 80.0,
+        "epsilon": 0.05,
+        "q_states": 4520
+      },
+      {
+        "episode": 44000,
+        "draw_rate": 84.5,
+        "x_win_rate": 9.9,
+        "o_win_rate": 5.6,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 90.0,
+        "epsilon": 0.05,
+        "q_states": 4520
+      },
+      {
+        "episode": 46000,
+        "draw_rate": 85.05,
+        "x_win_rate": 9.15,
+        "o_win_rate": 5.8,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 80.0,
+        "epsilon": 0.05,
+        "q_states": 4520
+      },
+      {
+        "episode": 48000,
+        "draw_rate": 84.95,
+        "x_win_rate": 10.8,
+        "o_win_rate": 4.25,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 100.0,
+        "epsilon": 0.05,
+        "q_states": 4520
+      },
+      {
+        "episode": 50000,
+        "draw_rate": 84.95,
+        "x_win_rate": 10.2,
+        "o_win_rate": 4.85,
+        "non_loss_vs_minimax": 100.0,
+        "win_vs_random": 90.0,
+        "epsilon": 0.05,
+        "q_states": 4520
+      }
+    ]
+  }
+]
